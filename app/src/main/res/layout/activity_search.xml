@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="30dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/edtSearchBar"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:layout_weight="1"
+        android:hint="Nhập tìm kiếm. . ."
+        android:inputType="text"
+        android:padding="20dp" />
+
+        <ImageView
+            android:id="@+id/imbtnsearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/rounded_edittext"
+            app:srcCompat="@drawable/ic_search" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="30dp"
+        >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_item_list"/>
+    </ScrollView>
+
+</RelativeLayout>

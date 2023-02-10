@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Detail">
+
+    <ImageView
+        android:id="@+id/imgbackbtn"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/backbtn"
+        tools:srcCompat="@drawable/backbtn"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="30dp">
+            <ImageView
+                android:id="@+id/imgDetail"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/nike_offwhite_x_airjodan1" />
+
+            <TextView
+                android:id="@+id/tvNameDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:layout_marginVertical="10dp"
+                android:text="Nike Off-White x Air Jodan 1" />
+
+            <TextView
+                android:id="@+id/tvPriceDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                android:text="00.00 VND" />
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:justificationMode="inter_word"
+                android:text="Lorem isdsafpum mono datdsdsfaa sdf werewwer
+                swwesl sfdawek ielwkfjiaod sdfwe wer sdf
+                ofiuwerasdfasdeadsd asdqw wwc qwqw wwq qwe weqew" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="20dp"
+                    android:text="Màu sắc" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:textSize="22dp"
+                    android:layout_weight="1"
+                    android:text="Đỏ"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="Kích cỡ" />
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvSize39"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="10dp"
+                    android:text="39"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_color_detail"/>
+
+                <TextView
+                    android:id="@+id/tvSize40"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="10dp"
+                    android:text="40"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_color_detail"/>
+
+                <TextView
+                    android:id="@+id/tvSize41"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="10dp"
+                    android:text="41"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_color_detail"/>
+
+                <TextView
+                    android:id="@+id/tvSize42"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="10dp"
+                    android:text="42"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_color_detail"/>
+
+                <TextView
+                    android:id="@+id/tvSize43"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="10dp"
+                    android:text="43"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_color_detail"/>
+
+            </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:text="Số lượng" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:background="@drawable/btn_color_detail"
+                    android:id="@+id/reduceQuanlity"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="5dp"
+                    android:text="-"></TextView>
+
+                <TextView
+                    android:id="@+id/detailQuanlity"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_marginHorizontal="20dp"
+                    android:text="01"
+                    android:textSize="22dp"></TextView>
+
+                <TextView
+                    android:background="@drawable/btn_color_detail"
+                    android:id="@+id/addQuanlity"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:paddingVertical="5dp"
+                    android:text="+"></TextView>
+            </LinearLayout>
+            <Button
+                android:id="@+id/buynow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/btn_border_radius"
+                android:text="mua ngay"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

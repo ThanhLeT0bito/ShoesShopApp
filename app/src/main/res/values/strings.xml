@@ -1,0 +1,13 @@
+<resources>
+    <string name="brand">Thương hiệu</string>
+    <string name="converse">Converse</string>
+    <string name="reebok">Reebok</string>
+    <string name="addidas">Addidas</string>
+    <string name="jordan">Jordan</string>
+    <string name="puma">Puma</string>
+    <string name="nike">Nike</string>
+    <string name="all">All</string>
+    <string name="newrelease">Mới ra mắt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
